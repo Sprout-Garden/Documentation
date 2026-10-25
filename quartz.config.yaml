@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: Sprout-Garden.github.io/documentation
+  baseUrl: sprout-garden.github.io/documentation
   ignorePatterns:
     - private
     - templates
