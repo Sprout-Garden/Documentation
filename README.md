@@ -1,17 +1,5 @@
-# Quartz v5
+# System Documentation
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+This repository contains the system documentation. The notes are written locally in Obsidian and published as a website using Quartz.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+To work on the documentation locally, install Node.js 22 or later and npm 10.9.2 or later, open the `content/` folder as an Obsidian vault, then run `npm ci` from the repository root to install dependencies. Run `npx quartz build --serve` to preview the site at http://localhost:8080.
